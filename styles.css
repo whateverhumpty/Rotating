@@ -1,0 +1,16 @@
+body {
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 300px;
+    transition: transform 1s;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
